@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T01:50:54.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eh-9Mt7cnUJSrdwJVp0p" version="22.1.18" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-11T02:16:52.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Rywl_KjSmfH1BrY66y6Q" version="22.1.18" type="github" pages="2">
   <diagram name="로그인-토큰발급" id="oMTvJh4s9uJ8uuH1-UVI">
     <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,128 @@
         </mxCell>
         <mxCell id="nz82AR-Ov8s2bVuygeAf-11" value="Github &lt;br&gt;Login Fail" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="110" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-1" value="Github &lt;br&gt;Access Token" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="224.5" as="sourcePoint" />
+            <mxPoint x="621" y="224.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="274" as="sourcePoint" />
+            <mxPoint x="414" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-4" value="Login Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="390" as="sourcePoint" />
+            <mxPoint x="414" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-10" value="Already Exist?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="440" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="484.5" as="sourcePoint" />
+            <mxPoint x="310" y="484.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="484.5" as="sourcePoint" />
+            <mxPoint x="521" y="484.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-13" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="472.5" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-15" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="531" y="472.5" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-16" value="MySQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <object label="Member" id="Zw-oJK_PBZ7GMt8sFQZV-27">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="110" y="472.5" width="60" height="30" as="geometry">
+              <mxRectangle x="21" y="472.5" width="140" height="120" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-28" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zw-oJK_PBZ7GMt8sFQZV-27">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-29" value="social_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zw-oJK_PBZ7GMt8sFQZV-27">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-30" value="social_nickname" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zw-oJK_PBZ7GMt8sFQZV-27">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222" y="484.5" as="sourcePoint" />
+            <mxPoint x="192" y="484.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.5" y="465" as="sourcePoint" />
+            <mxPoint x="139.5" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274.5" y="510" as="sourcePoint" />
+            <mxPoint x="274.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-37" value="JWT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="235" y="561" width="80" height="60" as="geometry" />
+        </mxCell>
+        <object label="JWT" id="Zw-oJK_PBZ7GMt8sFQZV-38">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="110" y="561" width="60" height="30" as="geometry">
+              <mxRectangle x="110" y="530" width="140" height="90" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-39" value="access_token" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zw-oJK_PBZ7GMt8sFQZV-38">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-40" value="refresh_token" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zw-oJK_PBZ7GMt8sFQZV-38">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.5" y="510" as="sourcePoint" />
+            <mxPoint x="139.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-44" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="650" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.5" y="600" as="sourcePoint" />
+            <mxPoint x="139.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555.5" y="510" as="sourcePoint" />
+            <mxPoint x="555.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-oJK_PBZ7GMt8sFQZV-47" value="JWT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="516" y="561" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
